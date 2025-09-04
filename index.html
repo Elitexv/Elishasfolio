@@ -1,410 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
+    <title>Elisha Paul Okai | Software Engineer & Founder of Ulisha Store</title>
+    <meta name="description" content="Elisha Paul Okai is a Software Engineer, Cybersecurity Expert, and the founder of Ulisha Store. With expertise in web development, Web3, and project management, he builds and secures decentralized projects.">
+    <meta name="keywords" content="Elisha Paul Okai, Ulisha Store, software engineer, web developer, cybersecurity, web3, solidity, founder, project management, on-chain analyst, blockchain">
+    <meta name="author" content="Elisha Paul Okai">
+    
+    <meta property="og:title" content="Elisha Paul Okai | Software Engineer & Founder">
+    <meta property="og:description" content="Elisha Paul Okai is a Software Engineer, Cybersecurity Expert, and the founder of Ulisha Store.">
+    <meta property="og:image" content="https://github.com/Elitexv/Elishasfolio/blob/main/profile-pic.PNG?raw=true">
+    <meta property="og:url" content="YOUR_PORTFOLIO_URL_HERE">
+    <meta property="og:type" content="website">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NFTArts7">
+    <meta name="twitter:creator" content="@NFTArts7">
+    <meta name="twitter:title" content="Elisha Paul Okai - Software Engineer">
+    <meta name="twitter:description" content="Elisha Paul Okai is a Software Engineer, Cybersecurity Expert, and the founder of Ulisha Store.">
 
-     <link rel="icon" href="./favicon.png" type="image/x-icon">
-  <meta property="og:type" content="website" />
-
-<meta property="article:publisher" content="https://www.facebook.com/elisha.okai.5">
-<meta property="article:modified_time" content="2023-07-08T13:37:36+00:00">
-  <meta property="og:image:alt" content="Cover Photo">
-     <meta property="og:title" content="Elisha Paul Okai - Software Engineer">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elisha Paul Okai|Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
 
-    <meta property="og:site_name" content="Elisha Paul Okai">
-    <meta property="og:description"
-      content="I'm a self-taught Software Engineer with experience in web development,web3 community management, computer hardware & software and currently learning Move language.">
-    <meta property="og:image" content="https://github.com/Elitexv/Elishasfolio/blob/main/profile-pic.PNG">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <meta name="description"
-    content="I'm a self-taught Software Engineer with experience in web development,web3 community management, computer hardware & software and currently learning Move language.">
-  <meta name="author" content="Elisha Paul Okai">
- <meta property="profile:username" content="NFTArts7">
-  <meta name="twitter:site" content="@NFTArts7" />
-  <meta name="twitter:creator" content="@NFTArts7" />
-  <meta name="twitter:domain" content="https://twitter.com/nftarts7" />
-  <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#ffffff">
-
-  <meta name="keywords"
-    content="Elisha Paul Okai, Elite, Shinnoks, NFT Expert, software engineer, web developer, seo, project orion, webvium, self taught, computer hardware & software, solidity, programming, Exotic Homes">
- 
-
-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Elisha Paul Okai",
+      "jobTitle": ["Software Engineer", "Cybersecurity Expert", "Founder"],
+      "url": "YOUR_PORTFOLIO_URL_HERE",
+      "sameAs": [
+        "https://www.linkedin.com/in/elisha-okai",
+        "https://github.com/Elitexv",
+        "https://twitter.com/NFTArts7"
+      ]
+    }
+    </script>
   </head>
 
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Elisha Paul Okai</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Skills
-          </a></li>
-          <li><a href="#projects">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <body class="bg-black text-white font-sans">
+    <header class="sticky top-0 left-0 w-full z-50 bg-[#1a1a1a] shadow-lg shadow-yellow-500/20">
+      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-yellow-400">Elisha Paul Okai</a>
+        <ul id="desktop-menu" class="hidden md:flex space-x-2 text-sm font-medium">
+          <li>
+            <a href="#about" class="block px-4 py-2 rounded-full text-white hover:bg-yellow-600 transition duration-300">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="block px-4 py-2 rounded-full text-white hover:bg-yellow-600 transition duration-300">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="block px-4 py-2 rounded-full text-white hover:bg-yellow-600 transition duration-300">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="block px-4 py-2 rounded-full text-white hover:bg-yellow-600 transition duration-300">Contact</a>
+          </li>
         </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Elisha Paul Okai</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button id="mobile-menu-btn" class="md:hidden text-gray-300 focus:outline-none">
+          <i class="fas fa-bars text-xl hover:text-yellow-400 transition duration-300"></i>
+        </button>
+      </nav>
+      <ul id="mobile-menu" class="hidden md:hidden bg-[#1a1a1a] p-4 space-y-4">
+        <li>
+          <a href="#about" class="block py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="block py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="block py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Experience</a>
+        </li>
+        <li>
+          <a href="#contact" class="block py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="pt-20">
+      <section id="profile" class="container mx-auto px-4 py-20 min-h-screen flex flex-col md:flex-row items-center justify-center space-y-8 md:space-x-12 animate-fade-in-up">
+        <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-yellow-400 shadow-lg shadow-yellow-500/50 transform hover:scale-105 transition-transform duration-500">
+          <img src="https://github.com/Elitexv/Elishasfolio/blob/main/profile-pic.PNG?raw=true" alt="Elisha's profile picture" class="object-cover w-full h-full" />
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <div class="text-center md:text-left">
+          <p class="text-lg text-gray-400">Hello, I'm</p>
+          <h1 class="text-5xl md:text-6xl font-extrabold mt-2 text-white">Elisha Paul Okai</h1>
+          <p class="text-2xl mt-2 text-yellow-400">Software Engineer | Cybersecurity Expert | Founder of Ulisha Store</p>
+          <div class="mt-8 flex justify-center md:justify-start space-x-4">
+            <a href="./Resum.pdf" class="btn-primary" download>
+              <i class="fas fa-download mr-2"></i>Download CV
+            </a>
+            <a href="#contact" class="btn-secondary">Contact Info</a>
+          </div>
+          <div class="mt-8 flex justify-center md:justify-start space-x-4">
+            <a href="https://linkedin.com/in/elisha-okai" target="_blank" class="w-10 h-10 transform hover:scale-110 transition-transform duration-300">
+              <i class="fab fa-linkedin text-4xl text-white hover:text-yellow-400 transition-colors duration-300"></i>
+            </a>
+            <a href="https://github.com/Elitexv" target="_blank" class="w-10 h-10 transform hover:scale-110 transition-transform duration-300">
+              <i class="fab fa-github text-4xl text-white hover:text-yellow-400 transition-colors duration-300"></i>
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./Elitepics.png" alt="E profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Elisha Paul Okai</h1>
-        <p class="section__text__p2">Web Developer, Solidity developer,Web3 project/community manager, Business dev manager </p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./Resum.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/Elitexv'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />web developer, web3 project and community management</p>
+      </section>
+
+      <hr class="border-gray-700 my-16" />
+
+      <section id="about" class="container mx-auto px-4 py-16 animate-fade-in-up">
+        <p class="text-center text-lg text-gray-400">Get To Know More</p>
+        <h2 class="text-center text-4xl font-bold mt-2 text-white">About Me</h2>
+        <div class="mt-12 flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-x-12 lg:space-y-0">
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="bg-[#1a1a1a] rounded-xl p-6 text-center border border-gray-700 shadow-lg shadow-yellow-500/20 transform hover:shadow-xl transition-all duration-300">
+              <i class="fas fa-briefcase text-4xl text-yellow-400 mb-4"></i>
+              <h3 class="text-xl font-semibold text-yellow-400">Experience</h3>
+              <p class="mt-2 text-gray-300">2+ years <br />Web development, Web3 project & community management</p>
             </div>
-            <div class="details-container">
-              <img
-                src="./education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Eng Computer engineering<br />D. Project Management</p>
+            <div class="bg-[#1a1a1a] rounded-xl p-6 text-center border border-gray-700 shadow-lg shadow-yellow-500/20 transform hover:shadow-xl transition-all duration-300">
+              <i class="fas fa-graduation-cap text-4xl text-yellow-400 mb-4"></i>
+              <h3 class="text-xl font-semibold text-yellow-400">Education</h3>
+              <p class="mt-2 text-gray-300">B.Eng Computer Engineering<br />D. Project Management</p>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-             i'm a blockchain ethusiast, defi expert and lover of fintech, i'm a solidity developer and web3 community/project manager with 3 years experience in building and managing
-             defi projects.
+          <div class="max-w-xl text-center lg:text-left mt-8 lg:mt-0">
+            <p class="text-gray-300 leading-relaxed">
+              I'm a blockchain enthusiast, DeFi expert, and a lover of FinTech. I am a **Solidity developer** and **Web3 community/project manager** with over 3 years of experience in building and managing DeFi projects. I am also the **founder of Ulisha Store**, where I apply my expertise in business development and web solutions.
             </p>
           </div>
         </div>
-      </div>
-      <img
-        src="./arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">web and Smart contract Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Solidity</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Move</h3>
-                  <p>beginner</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bulma Css</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Project Management</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Community management</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-               <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bussiness Development manager</h3>
-                  <p>Expert</p>
-                </div>
-              </article>
+      </section>
 
-              
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+      <hr class="border-gray-700 my-16" />
+
+      <section id="skills" class="container mx-auto px-4 py-16 animate-fade-in-up">
+        <p class="text-center text-lg text-gray-400">Explore My</p>
+        <h2 class="text-center text-4xl font-bold mt-2 text-white">Skills</h2>
+        <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-[#1a1a1a] rounded-xl p-8 border border-gray-700 shadow-lg shadow-yellow-500/20">
+            <h3 class="text-2xl font-bold text-yellow-400 text-center mb-6">Web & Smart Contract Development</h3>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
                 <div>
-                  <h3>Server security</h3>
-                  <p>Expert</p>
+                  <h4 class="text-lg font-semibold">HTML</h4>
+                  <p class="text-sm text-gray-400">Experienced</p>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
                 <div>
-                  <h3>Communty Moderator</h3>
-                  <p>Intermediate</p>
+                  <h4 class="text-lg font-semibold">CSS</h4>
+                  <p class="text-sm text-gray-400">Experienced</p>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
                 <div>
-                  <h3>On-chain Analyst</h3>
-                  <p>Expert</p>
+                  <h4 class="text-lg font-semibold">Solidity</h4>
+                  <p class="text-sm text-gray-400">Intermediate</p>
                 </div>
-              </article>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">JavaScript</h4>
+                  <p class="text-sm text-gray-400">Intermediate</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Move</h4>
+                  <p class="text-sm text-gray-400">Beginner</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-check-circle text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Bulma CSS</h4>
+                  <p class="text-sm text-gray-400">Intermediate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#1a1a1a] rounded-xl p-8 border border-gray-700 shadow-lg shadow-yellow-500/20">
+            <h3 class="text-2xl font-bold text-yellow-400 text-center mb-6">Project Management & Cybersecurity</h3>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-shield-alt text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Server Security</h4>
+                  <p class="text-sm text-gray-400">Expert</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-briefcase text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Business Development</h4>
+                  <p class="text-sm text-gray-400">Expert</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-users-cog text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Community Management</h4>
+                  <p class="text-sm text-gray-400">Basic</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-user-shield text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">On-chain Analyst</h4>
+                  <p class="text-sm text-gray-400">Expert</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-comments text-xl text-yellow-400"></i>
+                <div>
+                  <h4 class="text-lg font-semibold">Community Moderator</h4>
+                  <p class="text-sm text-gray-400">Intermediate</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <img
-        src="./arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Experience &</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./stake.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Stake Factory</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://discord.gg/DYeH3mmp'"
-              >
-                Discord
-              </button>
-              
-              </button>
+      </section>
+
+      <hr class="border-gray-700 my-16" />
+
+      <section id="projects" class="container mx-auto px-4 py-16 animate-fade-in-up">
+        <p class="text-center text-lg text-gray-400">Experience &</p>
+        <h2 class="text-center text-4xl font-bold mt-2 text-white">Projects</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-[#1a1a1a] rounded-xl p-6 border border-gray-700 shadow-lg shadow-yellow-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <img src="./stake.jpg" alt="Stake Factory project" class="rounded-lg w-full h-48 object-cover" />
+            <h3 class="text-2xl font-bold text-yellow-400 mt-4 text-center">Stake Factory</h3>
+            <div class="mt-4 flex justify-center">
+              <a href="https://discord.gg/DYeH3mmp" class="btn-primary">
+                <i class="fab fa-discord mr-2"></i>Discord
+              </a>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./rooch-banner.png"
-                alt="Project "
-                class="project-img" height="500px"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Rooch Network</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://discord.gg/wV3bq9VR'"
-              >
-                Discord
-              </button>
-             <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://rooch.network/'"
-              >
-                Website
-              </button>
+          <div class="bg-[#1a1a1a] rounded-xl p-6 border border-gray-700 shadow-lg shadow-yellow-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <img src="./rooch-banner.png" alt="Rooch Network project" class="rounded-lg w-full h-48 object-cover" />
+            <h3 class="text-2xl font-bold text-yellow-400 mt-4 text-center">Rooch Network</h3>
+            <div class="mt-4 flex justify-center space-x-4">
+              <a href="https://discord.gg/wV3bq9VR" class="btn-primary">
+                <i class="fab fa-discord mr-2"></i>Discord
+              </a>
+              <a href="https://rooch.network/" class="btn-secondary">
+                <i class="fas fa-globe mr-2"></i>Website
+              </a>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./exotic.png"
-                alt="Project 3"
-                class="project-img"
-              />
-              
-            </div>
-            <h2 class="experience-sub-title project-title">Exotic Homes</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Exotic-Home-Development'"
-              >
-                Github
-              </button>
-             
+          <div class="bg-[#1a1a1a] rounded-xl p-6 border border-gray-700 shadow-lg shadow-yellow-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <img src="./exotic.png" alt="Exotic Homes project" class="rounded-lg w-full h-48 object-cover" />
+            <h3 class="text-2xl font-bold text-yellow-400 mt-4 text-center">Exotic Homes</h3>
+            <div class="mt-4 flex justify-center">
+              <a href="https://github.com/Exotic-Home-Development" class="btn-primary">
+                <i class="fab fa-github mr-2"></i>Github
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <img
-        src="./arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:paulelite606@gmail.com">Paulelite606@gmail.com</a></p>
+      </section>
+
+      <hr class="border-gray-700 my-16" />
+
+      <section id="contact" class="container mx-auto px-4 py-16 animate-fade-in-up">
+        <p class="text-center text-lg text-gray-400">Get in Touch</p>
+        <h2 class="text-center text-4xl font-bold mt-2 text-white">Contact Me</h2>
+        <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+          <div class="flex items-center space-x-4">
+            <i class="fas fa-envelope text-2xl text-yellow-400"></i>
+            <a href="mailto:paulelite606@gmail.com" class="text-lg text-gray-300 hover:text-yellow-400 transition-colors duration-300">Paulelite606@gmail.com</a>
+          </div>
+          <div class="flex items-center space-x-4">
+            <i class="fab fa-linkedin text-2xl text-yellow-400"></i>
+            <a href="https://www.linkedin.com" class="text-lg text-gray-300 hover:text-yellow-400 transition-colors duration-300">LinkedIn</a>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Skills</a></li>
-            <li><a href="#projects">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2023 Elisha Paul Okai. All Rights Reserved.</p>
+      </section>
+    </main>
+
+    <footer class="text-center text-gray-500 py-8 mt-16 border-t border-gray-700">
+      <p>Copyright &copy; 2025 Elisha Paul Okai. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
+
+    <style>
+      .btn-primary {
+        @apply px-6 py-3 rounded-full text-white font-semibold bg-yellow-600 ring-2 ring-inset ring-yellow-400 transition-all duration-300 transform hover:scale-105 hover:bg-yellow-700 shadow-xl shadow-yellow-500/30;
+      }
+      .btn-secondary {
+        @apply px-6 py-3 rounded-full font-semibold border-2 border-yellow-600 text-yellow-400 hover:bg-yellow-600 hover:text-black transition-all duration-300 transform hover:scale-105 shadow-lg shadow-yellow-500/30;
+      }
+      /* Custom fade-in-up animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fadeInUp 1s ease-in-out;
+      }
+    </style>
+
+    <script>
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Close mobile menu when a link is clicked
+      mobileMenu.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+
+      // Highlight active tab based on scroll position
+      const sections = document.querySelectorAll('section');
+      const desktopLinks = document.querySelectorAll('#desktop-menu a');
+
+      window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        desktopLinks.forEach(link => {
+          link.classList.remove('bg-yellow-600', 'text-black');
+          link.classList.add('text-white');
+          if (link.href.includes(current)) {
+            link.classList.add('bg-yellow-600', 'text-black');
+            link.classList.remove('text-white');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
